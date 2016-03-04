@@ -1,0 +1,2 @@
+#find all items in current and sub folders that contain a # in the file name.
+Get-ChildItem -path * -filter '*#*' -recurse
